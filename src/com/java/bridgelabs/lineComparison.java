@@ -149,23 +149,13 @@ public class lineComparison
 
     }
 
-    /*
-      Use case 4 Concepts of Line and Point as well as equals and
-     compareTo methods. Using Java compareTo method to compare 2 Lengths is preferable
-    */
-
-    public void compareToMethods()
-    {
-
-    }
-
     public  static void main(String args[])
     {
         lineComparison linecomparison = new lineComparison();
         System.out.println("*-*-*-*-*- Wel come to line Comparison Computation -*-*-*-*-*");
-        // linecomparison.distanceBetweenPoint();
-        // linecomparison.twoLinesEqualOrNot();
-       // linecomparison.lineIsGreaterOrLessThan();
-          linecomparison.compareToMethods();
+         linecomparison.distanceBetweenPoint();
+         linecomparison.twoLinesEqualOrNot();
+          linecomparison.lineIsGreaterOrLessThan();
+
     }
 }
